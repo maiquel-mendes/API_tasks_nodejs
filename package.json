@@ -10,5 +10,8 @@
   },
   "keywords": [],
   "author": "Maiquel Mendes",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^5.5.5"
+  }
 }

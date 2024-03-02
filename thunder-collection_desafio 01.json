@@ -1,0 +1,97 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "desafio 01",
+    "dateExported": "2024-03-02T21:25:23.719Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8f1ed565-2d88-4b0e-9be2-cc386fd04f6a",
+            "colId": "65ef7888-1f69-43b8-b551-3f269f8daeaf",
+            "containerId": "",
+            "name": "Create task",
+            "url": "http://localhost:3333/tasks",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-02T17:31:44.105Z",
+            "modified": "2024-03-02T21:24:35.635Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"testando novo\",\n  \"description\": \"tarefa de laver o carro\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1e840359-eedd-4037-8bb7-58c8debc4158",
+            "colId": "65ef7888-1f69-43b8-b551-3f269f8daeaf",
+            "containerId": "",
+            "name": "Update task",
+            "url": "http://localhost:3333/tasks/8afba3fb-1bdb-4970-b439-d268fd1f11c8",
+            "method": "PUT",
+            "sortNum": 15000,
+            "created": "2024-03-02T17:31:44.106Z",
+            "modified": "2024-03-02T21:10:36.139Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bed4dbd3-f70c-4265-951d-15ecb9ecc246",
+            "colId": "65ef7888-1f69-43b8-b551-3f269f8daeaf",
+            "containerId": "",
+            "name": "Patch task ",
+            "url": "http://localhost:3333/tasks/8afba3fb-1bdb-4970-b439-d268fd1f11c8/complete",
+            "method": "PATCH",
+            "sortNum": 17500,
+            "created": "2024-03-02T19:16:48.804Z",
+            "modified": "2024-03-02T19:39:10.005Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c245e3d9-cf97-4de6-928a-6933be50f07d",
+            "colId": "65ef7888-1f69-43b8-b551-3f269f8daeaf",
+            "containerId": "",
+            "name": "List task",
+            "url": "http://localhost:3333/tasks",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-02T17:31:44.107Z",
+            "modified": "2024-03-02T21:03:02.517Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "search",
+                    "value": "01",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "page",
+                    "value": "2",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "ee160ec5-37c4-4b35-9030-56029d4719b9",
+            "colId": "65ef7888-1f69-43b8-b551-3f269f8daeaf",
+            "containerId": "",
+            "name": "Delete task",
+            "url": "http://localhost:3333/tasks/44ae059c-6b3e-4265-9a6e-15d303390bf6",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-03-02T17:31:44.108Z",
+            "modified": "2024-03-02T21:02:06.607Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
