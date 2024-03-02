@@ -8,6 +8,10 @@ challenge-ignite-nodejs-01-fundamentos-nodejs
 
 Esse projeto está sob a licença MIT.
 
+## 📤 Gestor de requisições
+
+Utilizei no projeto uma extensão para o vscode chamada [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+
 ---
 
 <p align="center">
